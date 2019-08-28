@@ -1,0 +1,12 @@
+body {
+ font-family: helvetica;
+}
+
+h1 {
+ color: blue;
+}
+
+video {
+ width: 100%;
+ height: 100%;
+}
