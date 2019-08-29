@@ -4,9 +4,6 @@
  box-sizing: border-box;
 }
 
-body {
- font-family: helvetica;
-}
 
 h1.shaq {
  order: 2;
@@ -74,6 +71,22 @@ div.home-content {
 #about-landing {
  background-image: url("./images/home2.jpg");
  background-size: 1450px;
+ flex-direction: column;
+ align-content: space-between;
+}
+
+p#about-text {
+ order: 2;
+ font-family: 'Unica One';
+ color:black;
+ background-color: white;
+ opacity: 0.6;
+ height: auto;
+ width: 400px;
+ text-align: center;
+ margin-top: 40px;
+ margin-left: 70px;
+ padding: 10px;
 }
 
 div.about-content {
@@ -83,7 +96,7 @@ div.about-content {
 }
 
 h1.about-title {
- float: left;
+ order: 1;
  font-family: 'Poiret One';
  font-size: 3em;
  color: rgb(252, 252, 252);
