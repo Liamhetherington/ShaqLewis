@@ -7,16 +7,19 @@
 
 h1.shaq {
  order: 2;
+ margin-left: auto;
+ text-align: right;
+ vertical-align: center;
  padding-top: 50px;
  padding-right: 20px;
- padding-left: 10px;
+ padding-bottom: 30px;
  height: 170px;
  width: auto;
- font-family: 'Lobster';
+ font-family: 'Alegreya Sans SC';
  font-size: 100px;
  color: white;
  opacity: 0.6;
- background-color: black;
+ /* background-color: black;  */
 }
 
 div.menu {
@@ -26,8 +29,8 @@ div.menu {
  padding: 20px;
  width: 160px;
  height: 250px;
- background-color: black;
- opacity: 0.8;
+ /* background-color: black; */
+ opacity: 0.6;
  flex-direction: column;
  justify-content: space-evenly;
 }
@@ -54,7 +57,7 @@ div.home, #about-landing , .home-content {
 div.home {
  order: 2;
  display: flex;
- background-image: url("./images/home.jpg");
+ background-image: url("./images/Shaq2.jpg");
  padding: 0px;
  flex-direction: column;
  align-self: flex-end;
