@@ -25,11 +25,11 @@ h1.shaq {
 div.menu {
  display: flex;
  margin-left: auto; 
+ margin-right: 160px;
  order:2;
  padding: 20px;
- width: 160px;
- height: 250px;
- /* background-color: black; */
+ width: 250px;
+ height: 350px;
  opacity: 0.6;
  flex-direction: column;
  justify-content: space-evenly;
@@ -38,7 +38,7 @@ div.menu {
 a.nav {
  font-family: 'Unica One';
  text-decoration: none;
- font-size: 25px;
+ font-size: 50px;
  padding: 5px;
  height: 40px;
  color: white;
@@ -106,4 +106,31 @@ h1.about-title {
  margin-top: 200px;
  margin-left: 50px;
  opacity: 0.6;
+}
+
+/** FOOTER **/
+
+
+footer {
+ margin-top: auto;
+ order: 3;
+ margin-right: 250px;
+ margin-left: auto;
+ margin-bottom: 60px;
+}
+
+.fa {
+ color: white;
+ opacity: 0.6;
+ padding: 20px;
+ font-size: 30px;
+ width: 20px;
+ height: 20px;
+ text-align: center;
+ text-decoration: none;
+ border-radius: 15px;
+}
+
+.fa:hover {
+ opacity: 1;
 }
