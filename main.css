@@ -11,35 +11,43 @@ h1.shaq {
  text-align: right;
  vertical-align: center;
  padding-top: 50px;
- padding-right: 20px;
+ padding-right: 50px;
  padding-bottom: 30px;
  height: 170px;
  width: auto;
- font-family: 'Alegreya Sans SC';
- font-size: 100px;
+ font-family: 'Playfair Display';
+ font-size: 110px;
+ font-weight: 100;
  color: white;
- opacity: 0.6;
+ -webkit-animation: fadein 10s;
+ animation: fadein 10s;
 }
 
 div.menu {
  display: flex;
  margin-left: auto; 
- margin-right: 160px;
  order:2;
- padding: 20px;
- width: 250px;
- height: 350px;
- opacity: 0.6;
+ margin-top: 230px;
+ margin-right: 235px;
+ width: 180px;
+ height: auto;
  flex-direction: column;
  justify-content: space-evenly;
+ -webkit-animation: fadein 10s;
+ animation: fadein 10s;
+}
+
+@-webkit-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
 }
 
 a.nav {
- font-family: 'Unica One';
+ font-family: 'Playfair Display';
+ margin: 10px;
  text-decoration: none;
- font-size: 50px;
+ font-size: 30px;
  padding: 5px;
- height: 40px;
  color: white;
 }
 
@@ -56,7 +64,7 @@ div.home, #about-landing , .home-content {
 div.home {
  order: 2;
  display: flex;
- background-image: url("./images/Shaq2.jpg");
+ background-image: url("./images/Shaq1000.jpg");
  padding: 0px;
  flex-direction: column;
  align-self: flex-end;
@@ -79,10 +87,9 @@ div.home-content {
 
 p#about-text {
  order: 2;
- font-family: 'Unica One';
+ font-family: 'Poiret One';
  color:black;
  background-color: white;
- opacity: 0.6;
  height: auto;
  width: 400px;
  text-align: center;
@@ -92,28 +99,30 @@ p#about-text {
 }
 
 div.about-content {
- background: linear-gradient(rgb(11, 16, 12) 50%, rgb(33, 33, 33));
+ -webkit-animation: fadein 4s;
+ animation: fadein 4s;
  height: 900px;
  width: 1450px;
 }
 
 h1.about-title {
  order: 1;
- font-family: 'Poiret One';
+ font-family: 'Unica One';
  font-size: 3em;
  color: rgb(252, 252, 252);
  margin-top: 200px;
  margin-left: 50px;
- opacity: 0.6;
 }
 
 /** FOOTER **/
 
 
 footer {
+ -webkit-animation: fadein 10s;
+ animation: fadein 10s;
  margin-top: auto;
  order: 3;
- margin-right: 250px;
+ margin-right: 290px;
  margin-left: auto;
  margin-bottom: 60px;
 }
