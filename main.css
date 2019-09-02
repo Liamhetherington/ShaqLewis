@@ -15,7 +15,7 @@ h1.shaq {
  padding-bottom: 30px;
  height: 170px;
  width: auto;
- font-family: 'Playfair Display';
+ font-family: 'Roboto', sans-serif;
  font-size: 110px;
  font-weight: 100;
  color: white;
@@ -43,7 +43,7 @@ div.menu {
 }
 
 a.nav {
- font-family: 'Playfair Display';
+ font-family: 'Roboto', sans-serif;
  margin: 10px;
  text-decoration: none;
  font-size: 30px;
