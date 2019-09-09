@@ -23,11 +23,28 @@ h1.shaq {
  animation: fadein 10s;
 }
 
+h2.moto {
+ order: 2;
+ margin-left: auto;
+ text-align: right;
+ vertical-align: center;
+ padding-right: 50px;
+ padding-bottom: 30px;
+ height: 120px;
+ width: auto;
+ font-family: 'Roboto', sans-serif;
+ font-size: 40px;
+ font-weight: 100;
+ color: white;
+ -webkit-animation: fadein 10s;
+ animation: fadein 10s;
+}
+
 div.menu {
  display: flex;
  margin-left: auto; 
  order:2;
- margin-top: 230px;
+ margin-top: 100px;
  margin-right: 235px;
  width: 180px;
  height: auto;
@@ -141,4 +158,22 @@ footer {
 
 .fa:hover {
  opacity: 1;
+}
+
+
+/** PRESS PAGE **/
+
+.press {
+ background-color: black;
+ width: 1450px;
+ height: 780px;
+}
+
+h1.press-title {
+ color: white;
+ font-family: 'Roboto', sans-serif;
+ font-size: 5em;
+ font-weight: 100;
+ text-align: center;
+ padding: 50px;
 }
