@@ -64,7 +64,7 @@ div.home, #about-landing , .home-content {
 div.home {
  order: 2;
  display: flex;
- background-image: url("./images/Shaq1000.jpg");
+ background-image: url("./images/background.jpg");
  padding: 0px;
  flex-direction: column;
  align-self: flex-end;
