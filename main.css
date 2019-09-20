@@ -91,9 +91,6 @@ div.header {
  order: 1;
 }
 
-div.home-content {
- background-image: url("./images/home2.jpg");
-}
 
 #about-landing {
  background-image: url("./images/home2.jpg");
@@ -115,9 +112,28 @@ p#about-text {
  padding: 10px;
 }
 
+p#about-text2 {
+ order: 2;
+ font-family: 'Poiret One';
+ color:black;
+ background-color: white;
+ height: auto;
+ width: 400px;
+ text-align: center;
+ padding-top: 200px;
+ margin-left: 70px;
+ padding: 10px;
+}
+
 div.about-content {
  -webkit-animation: fadein 4s;
  animation: fadein 4s;
+ height: 900px;
+ width: 1450px;
+}
+
+div.about-content2 {
+ background-image: url('./images/home.jpg');
  height: 900px;
  width: 1450px;
 }
