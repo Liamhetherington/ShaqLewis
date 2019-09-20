@@ -91,8 +91,26 @@ div.header {
  order: 1;
 }
 
+/** ABOUT PAGE **/
+div.carousel-item.active {
+ height: 765px;
+ width: 1460px;
+ overflow: hidden;
+ /* height: 750px;
+ width: auto;
+ overflow: hidden;
+ position: relative; */
+}
 
-#about-landing {
+
+/* span.carousel-control-next-icon, .carousel-control-prev-icon {
+ display: inline-block;
+ width: 30px;
+ height: 30px;
+ background: no-repeat 50%/100% 100%;
+} */
+
+/* #about-landing {
  background-image: url("./images/home2.jpg");
  background-size: 1450px;
  flex-direction: column;
@@ -145,7 +163,7 @@ h1.about-title {
  color: rgb(252, 252, 252);
  margin-top: 200px;
  margin-left: 50px;
-}
+} */
 
 /** FOOTER **/
 
